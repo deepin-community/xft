@@ -1,3 +1,18 @@
+xft (2.3.6-1) unstable; urgency=medium
+
+  * New upstream release. (Closes: #975597, #1021120)
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Mon, 03 Oct 2022 10:15:21 +0300
+
+xft (2.3.4-1) unstable; urgency=medium
+
+  * New upstream release.
+  * watch: Update git url.
+  * control, rules: Migrate to debhelper-compat, bump to 13.
+  * control: Bump policy to 4.6.0.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Fri, 01 Apr 2022 09:49:24 +0300
+
 xft (2.3.2-2) unstable; urgency=medium
 
   [ Julien Cristau ]

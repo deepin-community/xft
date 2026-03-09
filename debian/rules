@@ -12,9 +12,9 @@ PACKAGE = libxft2
 %:
 	dh $@ --with quilt --builddirectory=build/
 
-override_dh_missing:
+override_dh_install:
 	find debian/tmp -name '*.la' -delete
-	dh_missing --fail-missing
+	dh_install
 
 override_dh_strip:
 	dh_strip --dbgsym-migration='libxft2-dbg (<< 2.3.2-2~)'
